@@ -4,7 +4,7 @@ metadata:
   name: thehive-config
 data:
   application.conf: |-
-    play.http.secret.key="YouNeedToChangeThisKey"
+    play.http.secret.key="gp762nuuoqcoxypju8c569th9wz7q5"
     db {
     provider: janusgraph
     janusgraph {
@@ -68,5 +68,3 @@ data:
         </root>
 
     </configuration>
-    
-
