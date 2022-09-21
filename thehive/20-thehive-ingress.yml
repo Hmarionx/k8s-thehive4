@@ -6,7 +6,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - host: thehive.corp.sicher.me
+  - host: hmarionx.cloud.okteto.net
     http:
       paths:
       - path: /
@@ -16,4 +16,3 @@ spec:
             name: thehive
             port:
               number: 9000
-
